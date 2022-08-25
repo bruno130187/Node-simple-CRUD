@@ -1,0 +1,39 @@
+### Inseri um item no array
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name": "produto9",
+    "price": 1.98
+}
+
+
+
+### Busca os itens do array
+GET http://localhost:4002/products
+content-type: application/json
+
+
+
+
+### Busca um item do array
+GET http://localhost:4002/products/bbd8fd3c-c5c2-485f-8cb8-9ae561ebcf6e
+content-type: application/json
+
+
+
+
+### Altera um item no array
+PUT http://localhost:4002/products/1c9fc1b4-5e93-4b82-88c0-d2bc77525c3a
+content-type: application/json
+
+{
+    "name": "produto5",
+    "price": 1.50
+}
+
+
+
+
+### Remove um item no array
+DELETE http://localhost:4002/products/040d67ad-7996-4d63-b4ee-6c1d64bf64cb
