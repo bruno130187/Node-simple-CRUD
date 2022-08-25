@@ -2,3 +2,8 @@
 "Crud" simples com Node.js
 
 Link biográfico: https://www.youtube.com/watch?v=fm4_EuCsQwg
+
+Express
+nodemon
+rest client
+filesystem
